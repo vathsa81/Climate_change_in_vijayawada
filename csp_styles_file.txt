@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222831;
+  color: #eaece5;
+}
+
+.hero-image {
+  background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Places-to-visit-in-Vijayawada600x400.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* about */
+h2 {
+  text-align: center;
+  padding: 25px 0;
+  color: #BBE1FA;
+}
+
+h3 {
+  text-align: center;
+  color: #3282B8
+}
+
+.carousel-inner {
+  background-color: #393E46;
+  color: #00ADB5;
+  padding-bottom: 100px;
+}
+
+.carousel-item {
+  height: 500px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.aboutImage {
+  width: 30%;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+/* climate */
+.aboutText {
+  text-align: center;
+  padding: 20px 100px;
+  font-size: 1.5rem;
+}
+
+/* vijayawada */
+.vijayawada {
+  background-color: #393E46;
+  color: #00ADB5;
+  text-align: center;
+  /* padding: 20px 100px; */
+  font-size: 1.5rem;
+}
+
+.infoImage {
+  padding-bottom: 20px;
+}
+
+/* reasons */
+.reasons {
+  background-color: #00ADB5;
+  color: #eaece5;
+}
+
+.pop {
+  width: 500px;
+  height: 500px;
+  padding-bottom: 200px;
+}
+
+h2.reasons {
+  color: #222831;
+}
+
+h3.aboutText {
+  color: #0F4C75;
+  text-decoration: underline;
+}
+
+p.aboutText {
+  color: #EAEAEA;
+}
+
+/* measures */
+.measures {
+  text-align: left;
+  padding: 20px;
+  background-color: #393E46;
+  color: #00ADB5;
+}
+
+h2.measures {
+  color: #BBE1FA;
+}
+
+h3.measures {
+  color: #3282B8;
+}
+
+p.measures {
+  color: #00ADB5;
+  font-size: 1.5rem;
+}
+
+/* contact */
+
+.contact {
+  background-color: #00ADB5;
+  color: #eaece5;
+}
+
+#team {
+  background-color: #61C0BF;
+  padding-bottom: 10px;
+}
+
+h2.section-title {
+  color: #222831;
+}
+
+h4.name {
+  color: #393E46;
+}
+
+p.section-title {
+  color: #EEEEEE;
+}
+
+i {
+  color: #70b9b0;
+}
+
+i:hover {
+  color: #92cac3;
+}
+
+/* footer */
+footer {
+  padding: 20px 10px 10px;
+}
